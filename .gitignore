@@ -1,0 +1,22 @@
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editor and temporary files
+.vscode/
+.idea/
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
