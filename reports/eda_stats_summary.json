@@ -1,0 +1,900 @@
+{
+  "overall": {
+    "customers": 7043,
+    "churned": 1869,
+    "retained": 5174,
+    "churn_rate": 0.2653698707936959,
+    "ci_low": 0.25518811288450727,
+    "ci_high": 0.2758074374889079
+  },
+  "categorical_tests": [
+    {
+      "feature": "Contract",
+      "chi2": 1184.5965720837926,
+      "dof": 2,
+      "p_value": 5.863038300673391e-258,
+      "cramers_v": 0.4101156965761409,
+      "groups": [
+        {
+          "Contract": "Month-to-month",
+          "customers": 3875,
+          "churned": 1655,
+          "churn_rate": 0.4270967741935484,
+          "ci_low": 0.4116019532373783,
+          "ci_high": 0.4427359963802429,
+          "share_of_total": 0.5501916796819537,
+          "small_sample_flag": false
+        },
+        {
+          "Contract": "One year",
+          "customers": 1473,
+          "churned": 166,
+          "churn_rate": 0.11269517990495587,
+          "ci_low": 0.09754355753104996,
+          "ci_high": 0.12986166380453906,
+          "share_of_total": 0.20914383075394008,
+          "small_sample_flag": false
+        },
+        {
+          "Contract": "Two year",
+          "customers": 1695,
+          "churned": 48,
+          "churn_rate": 0.02831858407079646,
+          "ci_low": 0.02142533413217164,
+          "ci_high": 0.03734498743156174,
+          "share_of_total": 0.24066448956410622,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 5.276734470606052e-257,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "OnlineSecurity",
+      "chi2": 849.9989679615965,
+      "dof": 2,
+      "p_value": 2.661149635176552e-185,
+      "cramers_v": 0.3474004326740552,
+      "groups": [
+        {
+          "OnlineSecurity": "No",
+          "customers": 3498,
+          "churned": 1461,
+          "churn_rate": 0.4176672384219554,
+          "ci_low": 0.4014230010371602,
+          "ci_high": 0.4340921110050686,
+          "share_of_total": 0.4966633536845094,
+          "small_sample_flag": false
+        },
+        {
+          "OnlineSecurity": "Yes",
+          "customers": 2019,
+          "churned": 295,
+          "churn_rate": 0.14611193660227836,
+          "ci_low": 0.13137677353121305,
+          "ci_high": 0.16219119554081726,
+          "share_of_total": 0.2866676132329973,
+          "small_sample_flag": false
+        },
+        {
+          "OnlineSecurity": "No internet service",
+          "customers": 1526,
+          "churned": 113,
+          "churn_rate": 0.07404980340760157,
+          "ci_low": 0.06195443778374668,
+          "ci_high": 0.08828430590795033,
+          "share_of_total": 0.21666903308249325,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 1.1975173358294485e-184,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "TechSupport",
+      "chi2": 828.1970684587394,
+      "dof": 2,
+      "p_value": 1.4430840279998987e-180,
+      "cramers_v": 0.3429161982469257,
+      "groups": [
+        {
+          "TechSupport": "No",
+          "customers": 3473,
+          "churned": 1446,
+          "churn_rate": 0.4163547365390153,
+          "ci_low": 0.40006131059360706,
+          "ci_high": 0.43283299681692733,
+          "share_of_total": 0.4931137299446259,
+          "small_sample_flag": false
+        },
+        {
+          "TechSupport": "Yes",
+          "customers": 2044,
+          "churned": 310,
+          "churn_rate": 0.15166340508806261,
+          "ci_low": 0.136767628085992,
+          "ci_high": 0.16786604173918604,
+          "share_of_total": 0.2902172369728809,
+          "small_sample_flag": false
+        },
+        {
+          "TechSupport": "No internet service",
+          "customers": 1526,
+          "churned": 113,
+          "churn_rate": 0.07404980340760157,
+          "ci_low": 0.06195443778374668,
+          "ci_high": 0.08828430590795033,
+          "share_of_total": 0.21666903308249325,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 4.329252083999696e-180,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "InternetService",
+      "chi2": 732.309589667794,
+      "dof": 2,
+      "p_value": 9.571788222840544e-160,
+      "cramers_v": 0.32245455521230887,
+      "groups": [
+        {
+          "InternetService": "Fiber optic",
+          "customers": 3096,
+          "churned": 1297,
+          "churn_rate": 0.4189276485788114,
+          "ci_low": 0.40165930022138335,
+          "ci_high": 0.43639693372840666,
+          "share_of_total": 0.4395854039471816,
+          "small_sample_flag": false
+        },
+        {
+          "InternetService": "DSL",
+          "customers": 2421,
+          "churned": 459,
+          "churn_rate": 0.1895910780669145,
+          "ci_low": 0.17447354300159237,
+          "ci_high": 0.20569211915638871,
+          "share_of_total": 0.34374556297032516,
+          "small_sample_flag": false
+        },
+        {
+          "InternetService": "No",
+          "customers": 1526,
+          "churned": 113,
+          "churn_rate": 0.07404980340760157,
+          "ci_low": 0.06195443778374668,
+          "ci_high": 0.08828430590795033,
+          "share_of_total": 0.21666903308249325,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 2.1536523501391224e-159,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "PaymentMethod",
+      "chi2": 648.1423274814,
+      "dof": 3,
+      "p_value": 3.6823546520097993e-140,
+      "cramers_v": 0.30335862555407056,
+      "groups": [
+        {
+          "PaymentMethod": "Electronic check",
+          "customers": 2365,
+          "churned": 1071,
+          "churn_rate": 0.4528541226215645,
+          "ci_low": 0.4328852117107511,
+          "ci_high": 0.47297594283396105,
+          "share_of_total": 0.3357944057929859,
+          "small_sample_flag": false
+        },
+        {
+          "PaymentMethod": "Mailed check",
+          "customers": 1612,
+          "churned": 308,
+          "churn_rate": 0.19106699751861042,
+          "ci_low": 0.17261845344358442,
+          "ci_high": 0.210984439920149,
+          "share_of_total": 0.22887973874769274,
+          "small_sample_flag": false
+        },
+        {
+          "PaymentMethod": "Bank transfer (automatic)",
+          "customers": 1544,
+          "churned": 258,
+          "churn_rate": 0.16709844559585493,
+          "ci_low": 0.14932106299335554,
+          "ci_high": 0.1865282294895859,
+          "share_of_total": 0.21922476217520942,
+          "small_sample_flag": false
+        },
+        {
+          "PaymentMethod": "Credit card (automatic)",
+          "customers": 1522,
+          "churned": 232,
+          "churn_rate": 0.15243101182654403,
+          "ci_low": 0.13524977657358542,
+          "ci_high": 0.1713623266145686,
+          "share_of_total": 0.2161010932841119,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 6.628238373617639e-140,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "PaperlessBilling",
+      "chi2": 258.27764906707307,
+      "dof": 1,
+      "p_value": 4.073354668665985e-58,
+      "cramers_v": 0.1918253316664679,
+      "groups": [
+        {
+          "PaperlessBilling": "Yes",
+          "customers": 4171,
+          "churned": 1400,
+          "churn_rate": 0.33565092304003835,
+          "ci_low": 0.3214771559562889,
+          "ci_high": 0.350127140033605,
+          "share_of_total": 0.5922192247621753,
+          "small_sample_flag": false
+        },
+        {
+          "PaperlessBilling": "No",
+          "customers": 2872,
+          "churned": 469,
+          "churn_rate": 0.1633008356545961,
+          "ci_low": 0.15023344126102844,
+          "ci_high": 0.17726773441467042,
+          "share_of_total": 0.4077807752378248,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 6.110032002998977e-58,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "Dependents",
+      "chi2": 189.12924940423474,
+      "dof": 1,
+      "p_value": 4.9249216612154196e-43,
+      "cramers_v": 0.16422140157972526,
+      "groups": [
+        {
+          "Dependents": "No",
+          "customers": 4933,
+          "churned": 1543,
+          "churn_rate": 0.3127914048246503,
+          "ci_low": 0.30000337685863687,
+          "ci_high": 0.3258707745788272,
+          "share_of_total": 0.7004117563538265,
+          "small_sample_flag": false
+        },
+        {
+          "Dependents": "Yes",
+          "customers": 2110,
+          "churned": 326,
+          "churn_rate": 0.15450236966824646,
+          "ci_low": 0.13970982728781553,
+          "ci_high": 0.17055064947782902,
+          "share_of_total": 0.2995882436461735,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 6.332042135848397e-43,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "SeniorCitizen",
+      "chi2": 159.42630036838742,
+      "dof": 1,
+      "p_value": 1.510066805092378e-36,
+      "cramers_v": 0.1508893281764731,
+      "groups": [
+        {
+          "SeniorCitizen": "Yes",
+          "customers": 1142,
+          "churned": 476,
+          "churn_rate": 0.4168126094570928,
+          "ci_low": 0.3885431454779244,
+          "ci_high": 0.44563984856773625,
+          "share_of_total": 0.1621468124378816,
+          "small_sample_flag": false
+        },
+        {
+          "SeniorCitizen": "No",
+          "customers": 5901,
+          "churned": 1393,
+          "churn_rate": 0.23606168446026096,
+          "ci_low": 0.22540059971661536,
+          "ci_high": 0.24706618508642259,
+          "share_of_total": 0.8378531875621185,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 1.698825155728925e-36,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "Partner",
+      "chi2": 158.7333820309922,
+      "dof": 1,
+      "p_value": 2.1399113440759935e-36,
+      "cramers_v": 0.15044754495917653,
+      "groups": [
+        {
+          "Partner": "No",
+          "customers": 3641,
+          "churned": 1200,
+          "churn_rate": 0.32957978577313923,
+          "ci_low": 0.31449805858775837,
+          "ci_high": 0.34502073968624625,
+          "share_of_total": 0.5169672014766434,
+          "small_sample_flag": false
+        },
+        {
+          "Partner": "Yes",
+          "customers": 3402,
+          "churned": 669,
+          "churn_rate": 0.1966490299823633,
+          "ci_low": 0.183638235413106,
+          "ci_high": 0.21034412549376955,
+          "share_of_total": 0.4830327985233565,
+          "small_sample_flag": false
+        }
+      ],
+      "fdr_q_value": 2.1399113440759935e-36,
+      "significant_fdr_05": true
+    }
+  ],
+  "numeric_tests": [
+    {
+      "feature": "tenure",
+      "n_churn": 1869,
+      "n_retain": 5174,
+      "churn_mean": 17.979133226324237,
+      "churn_std": 19.53112305451955,
+      "churn_median": 10.0,
+      "churn_iqr": 27.0,
+      "retain_mean": 37.56996521066873,
+      "retain_std": 24.113776690704075,
+      "retain_median": 38.0,
+      "retain_iqr": 46.0,
+      "mannwhitney_u": 2515538.0,
+      "p_value": 2.419635517951866e-208,
+      "rank_biserial_r": -0.4797343510572577,
+      "fdr_q_value": 7.258906553855598e-208,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "MonthlyCharges",
+      "n_churn": 1869,
+      "n_retain": 5174,
+      "churn_mean": 74.44133226324237,
+      "churn_std": 24.666053259397433,
+      "churn_median": 79.65,
+      "churn_iqr": 38.050000000000004,
+      "retain_mean": 61.26512369540008,
+      "retain_std": 31.092648119345295,
+      "retain_median": 64.42500000000001,
+      "retain_iqr": 63.300000000000004,
+      "mannwhitney_u": 6003125.5,
+      "p_value": 3.311627651988585e-54,
+      "rank_biserial_r": 0.24157137914125104,
+      "fdr_q_value": 3.311627651988585e-54,
+      "significant_fdr_05": true
+    },
+    {
+      "feature": "TotalCharges",
+      "n_churn": 1869,
+      "n_retain": 5163,
+      "churn_mean": 1531.7960941680042,
+      "churn_std": 1890.822994464404,
+      "churn_median": 703.55,
+      "churn_iqr": 2196.8,
+      "retain_mean": 2555.344141003293,
+      "retain_std": 2329.4569835604343,
+      "retain_median": 1683.6,
+      "retain_iqr": 3686.3,
+      "mannwhitney_u": 3360665.0,
+      "p_value": 1.9959848938845826e-84,
+      "rank_biserial_r": -0.30346363965438317,
+      "fdr_q_value": 2.993977340826874e-84,
+      "significant_fdr_05": true
+    }
+  ],
+  "tenure_groups": [
+    {
+      "tenure_group": "0-12m",
+      "customers": 2186,
+      "churned": 1037,
+      "churn_rate": 0.47438243366880145,
+      "ci_low": 0.4535131370713928,
+      "ci_high": 0.4953416078468463,
+      "share_of_total": 0.31037909981541956,
+      "small_sample_flag": false
+    },
+    {
+      "tenure_group": "13-24m",
+      "customers": 1024,
+      "churned": 294,
+      "churn_rate": 0.287109375,
+      "ci_low": 0.26023562972543196,
+      "ci_high": 0.3155744368384819,
+      "share_of_total": 0.14539258838563113,
+      "small_sample_flag": false
+    },
+    {
+      "tenure_group": "25-48m",
+      "customers": 1594,
+      "churned": 325,
+      "churn_rate": 0.2038895859473024,
+      "ci_low": 0.1848341863069345,
+      "ci_high": 0.22436877635950525,
+      "share_of_total": 0.22632400965497657,
+      "small_sample_flag": false
+    },
+    {
+      "tenure_group": "49-72m",
+      "customers": 2239,
+      "churned": 213,
+      "churn_rate": 0.09513175524787852,
+      "ci_low": 0.08366302267682105,
+      "ci_high": 0.10798737558481472,
+      "share_of_total": 0.31790430214397275,
+      "small_sample_flag": false
+    }
+  ],
+  "cross_segments": {
+    "contract_x_tenure": [
+      {
+        "Contract": "Month-to-month",
+        "tenure_group": "0-12m",
+        "customers": 1994,
+        "churned": 1024,
+        "churn_rate": 0.5135406218655968,
+        "ci_low": 0.49159771353951426,
+        "ci_high": 0.5354314582506616,
+        "share_of_all_churn": 0.5478865703584804,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "tenure_group": "13-24m",
+        "customers": 737,
+        "churned": 278,
+        "churn_rate": 0.37720488466757124,
+        "ci_low": 0.3429340923472803,
+        "ci_high": 0.41274912726069873,
+        "share_of_all_churn": 0.1487426431246656,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "tenure_group": "25-48m",
+        "customers": 802,
+        "churned": 264,
+        "churn_rate": 0.32917705735660846,
+        "ci_low": 0.2975365856474931,
+        "ci_high": 0.36244616033707766,
+        "share_of_all_churn": 0.14125200642054575,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "tenure_group": "49-72m",
+        "customers": 342,
+        "churned": 89,
+        "churn_rate": 0.260233918128655,
+        "ci_low": 0.21657828455907271,
+        "ci_high": 0.3092159896172114,
+        "share_of_all_churn": 0.047619047619047616,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "tenure_group": "49-72m",
+        "customers": 634,
+        "churned": 82,
+        "churn_rate": 0.12933753943217666,
+        "ci_low": 0.10543210929303314,
+        "ci_high": 0.15770766705674566,
+        "share_of_all_churn": 0.043873729266987696,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "tenure_group": "25-48m",
+        "customers": 518,
+        "churned": 55,
+        "churn_rate": 0.10617760617760617,
+        "ci_low": 0.08248671509068067,
+        "ci_high": 0.13566662802997445,
+        "share_of_all_churn": 0.029427501337613696,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "tenure_group": "0-12m",
+        "customers": 124,
+        "churned": 13,
+        "churn_rate": 0.10483870967741936,
+        "ci_low": 0.062297852103246364,
+        "ci_high": 0.17112766647245053,
+        "share_of_all_churn": 0.006955591225254147,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "tenure_group": "13-24m",
+        "customers": 197,
+        "churned": 16,
+        "churn_rate": 0.08121827411167512,
+        "ci_low": 0.050609088734259025,
+        "ci_high": 0.12784738649326072,
+        "share_of_all_churn": 0.008560727661851257,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "tenure_group": "49-72m",
+        "customers": 1263,
+        "churned": 42,
+        "churn_rate": 0.0332541567695962,
+        "ci_low": 0.024695165645655996,
+        "ci_high": 0.04464378613009813,
+        "share_of_all_churn": 0.02247191011235955,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "tenure_group": "25-48m",
+        "customers": 274,
+        "churned": 6,
+        "churn_rate": 0.021897810218978103,
+        "ci_low": 0.010073695210009791,
+        "ci_high": 0.04694248548502991,
+        "share_of_all_churn": 0.0032102728731942215,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "tenure_group": "13-24m",
+        "customers": 90,
+        "churned": 0,
+        "churn_rate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.04093562556432678,
+        "share_of_all_churn": 0.0,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "tenure_group": "0-12m",
+        "customers": 68,
+        "churned": 0,
+        "churn_rate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.053471336520070537,
+        "share_of_all_churn": 0.0,
+        "small_sample_flag": false
+      }
+    ],
+    "internet_x_techsupport": [
+      {
+        "InternetService": "Fiber optic",
+        "TechSupport": "No",
+        "customers": 2230,
+        "churned": 1101,
+        "churn_rate": 0.49372197309417043,
+        "ci_low": 0.4729999794336245,
+        "ci_high": 0.5144655589601422,
+        "share_of_all_churn": 0.5890850722311396,
+        "small_sample_flag": false
+      },
+      {
+        "InternetService": "DSL",
+        "TechSupport": "No",
+        "customers": 1243,
+        "churned": 345,
+        "churn_rate": 0.27755430410297666,
+        "ci_low": 0.2533748988524467,
+        "ci_high": 0.30310439842481374,
+        "share_of_all_churn": 0.18459069020866772,
+        "small_sample_flag": false
+      },
+      {
+        "InternetService": "Fiber optic",
+        "TechSupport": "Yes",
+        "customers": 866,
+        "churned": 196,
+        "churn_rate": 0.22632794457274827,
+        "ci_low": 0.19970193026476793,
+        "ci_high": 0.2553711808253433,
+        "share_of_all_churn": 0.10486891385767791,
+        "small_sample_flag": false
+      },
+      {
+        "InternetService": "DSL",
+        "TechSupport": "Yes",
+        "customers": 1178,
+        "churned": 114,
+        "churn_rate": 0.0967741935483871,
+        "ci_low": 0.08117827419651184,
+        "ci_high": 0.1149914041392255,
+        "share_of_all_churn": 0.060995184590690206,
+        "small_sample_flag": false
+      },
+      {
+        "InternetService": "No",
+        "TechSupport": "No internet service",
+        "customers": 1526,
+        "churned": 113,
+        "churn_rate": 0.07404980340760157,
+        "ci_low": 0.06195443778374668,
+        "ci_high": 0.08828430590795033,
+        "share_of_all_churn": 0.060460139111824504,
+        "small_sample_flag": false
+      }
+    ],
+    "contract_x_payment": [
+      {
+        "Contract": "Month-to-month",
+        "PaymentMethod": "Electronic check",
+        "customers": 1850,
+        "churned": 994,
+        "churn_rate": 0.5372972972972972,
+        "ci_low": 0.5145227916668392,
+        "ci_high": 0.5599172308838417,
+        "share_of_all_churn": 0.5318352059925093,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "PaymentMethod": "Bank transfer (automatic)",
+        "customers": 589,
+        "churned": 201,
+        "churn_rate": 0.34125636672325976,
+        "ci_low": 0.30410505897790113,
+        "ci_high": 0.38046490957323814,
+        "share_of_all_churn": 0.10754414125200643,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "PaymentMethod": "Credit card (automatic)",
+        "customers": 543,
+        "churned": 178,
+        "churn_rate": 0.3278084714548803,
+        "ci_low": 0.289655905058299,
+        "ci_high": 0.36838026432198184,
+        "share_of_all_churn": 0.09523809523809523,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "PaymentMethod": "Mailed check",
+        "customers": 893,
+        "churned": 282,
+        "churn_rate": 0.3157894736842105,
+        "ci_low": 0.2861465424475018,
+        "ci_high": 0.3470104701279202,
+        "share_of_all_churn": 0.1508828250401284,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "PaymentMethod": "Electronic check",
+        "customers": 347,
+        "churned": 64,
+        "churn_rate": 0.1844380403458213,
+        "ci_low": 0.1471631891996364,
+        "ci_high": 0.22862323941647206,
+        "share_of_all_churn": 0.03424291064740503,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "PaymentMethod": "Credit card (automatic)",
+        "customers": 398,
+        "churned": 41,
+        "churn_rate": 0.10301507537688442,
+        "ci_low": 0.07684777789251712,
+        "ci_high": 0.13677243708633974,
+        "share_of_all_churn": 0.021936864633493848,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "PaymentMethod": "Bank transfer (automatic)",
+        "customers": 391,
+        "churned": 38,
+        "churn_rate": 0.09718670076726342,
+        "ci_low": 0.07162681915794675,
+        "ci_high": 0.13058461795699874,
+        "share_of_all_churn": 0.020331728196896735,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "PaymentMethod": "Electronic check",
+        "customers": 168,
+        "churned": 13,
+        "churn_rate": 0.07738095238095238,
+        "ci_low": 0.04577696410133538,
+        "ci_high": 0.1278799579562912,
+        "share_of_all_churn": 0.006955591225254147,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "PaymentMethod": "Mailed check",
+        "customers": 337,
+        "churned": 23,
+        "churn_rate": 0.06824925816023739,
+        "ci_low": 0.04590529215679396,
+        "ci_high": 0.10032533070564995,
+        "share_of_all_churn": 0.012306046013911182,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "PaymentMethod": "Bank transfer (automatic)",
+        "customers": 564,
+        "churned": 19,
+        "churn_rate": 0.03368794326241135,
+        "ci_low": 0.021671076884438086,
+        "ci_high": 0.052014030412220746,
+        "share_of_all_churn": 0.010165864098448368,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "PaymentMethod": "Credit card (automatic)",
+        "customers": 581,
+        "churned": 13,
+        "churn_rate": 0.022375215146299483,
+        "ci_low": 0.013122013985157879,
+        "ci_high": 0.03790285501244713,
+        "share_of_all_churn": 0.006955591225254147,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "PaymentMethod": "Mailed check",
+        "customers": 382,
+        "churned": 3,
+        "churn_rate": 0.007853403141361256,
+        "ci_low": 0.0026743884709257305,
+        "ci_high": 0.022832095074865513,
+        "share_of_all_churn": 0.0016051364365971107,
+        "small_sample_flag": false
+      }
+    ],
+    "contract_x_charge_tier": [
+      {
+        "Contract": "Month-to-month",
+        "charge_tier": "High (>$83.5)",
+        "customers": 1264,
+        "churned": 665,
+        "churn_rate": 0.5261075949367089,
+        "ci_low": 0.4985435648095757,
+        "ci_high": 0.5535134171898859,
+        "share_of_all_churn": 0.35580524344569286,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "charge_tier": "Mid ($35.5-$83.5)",
+        "customers": 1454,
+        "churned": 643,
+        "churn_rate": 0.44222833562585967,
+        "ci_low": 0.4168857316176734,
+        "ci_high": 0.4678753999968014,
+        "share_of_all_churn": 0.3440342429106474,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Month-to-month",
+        "charge_tier": "Low (<=$35.5)",
+        "customers": 1157,
+        "churned": 347,
+        "churn_rate": 0.2999135695764909,
+        "ci_low": 0.2742079810617235,
+        "ci_high": 0.32694341090323564,
+        "share_of_all_churn": 0.18566078116639914,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "charge_tier": "High (>$83.5)",
+        "customers": 519,
+        "churned": 104,
+        "churn_rate": 0.2003853564547206,
+        "ci_low": 0.1682049197886006,
+        "ci_high": 0.23696849415320406,
+        "share_of_all_churn": 0.05564472980203317,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "charge_tier": "Mid ($35.5-$83.5)",
+        "customers": 473,
+        "churned": 43,
+        "churn_rate": 0.09090909090909091,
+        "ci_low": 0.06819223852310131,
+        "ci_high": 0.12021725725121023,
+        "share_of_all_churn": 0.023006955591225255,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "charge_tier": "High (>$83.5)",
+        "customers": 564,
+        "churned": 31,
+        "churn_rate": 0.0549645390070922,
+        "ci_low": 0.038989361321892076,
+        "ci_high": 0.07696106427301808,
+        "share_of_all_churn": 0.01658640984483681,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "One year",
+        "charge_tier": "Low (<=$35.5)",
+        "customers": 481,
+        "churned": 19,
+        "churn_rate": 0.0395010395010395,
+        "ci_low": 0.025431810257671918,
+        "ci_high": 0.06086744913831157,
+        "share_of_all_churn": 0.010165864098448368,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "charge_tier": "Mid ($35.5-$83.5)",
+        "customers": 418,
+        "churned": 10,
+        "churn_rate": 0.023923444976076555,
+        "ci_low": 0.013045641566049817,
+        "ci_high": 0.04347193944020225,
+        "share_of_all_churn": 0.005350454788657036,
+        "small_sample_flag": false
+      },
+      {
+        "Contract": "Two year",
+        "charge_tier": "Low (<=$35.5)",
+        "customers": 713,
+        "churned": 7,
+        "churn_rate": 0.009817671809256662,
+        "ci_low": 0.004763655698213291,
+        "ci_high": 0.020125332795903464,
+        "share_of_all_churn": 0.003745318352059925,
+        "small_sample_flag": false
+      }
+    ]
+  },
+  "data_audit": {
+    "raw_rows": 7043,
+    "raw_cols": 21,
+    "duplicate_full_rows": 0,
+    "duplicate_customer_ids": 0,
+    "missing_customer_ids": 0,
+    "invalid_nonblank_total_charges": 0,
+    "missing_counts": {
+      "TotalCharges": 11
+    },
+    "blank_total_charges_tenures": {
+      "0": 11
+    },
+    "blank_total_charges_churn": {
+      "No": 11
+    },
+    "tenure_min": 0,
+    "tenure_max": 72,
+    "monthly_charges_min": 18.25,
+    "monthly_charges_max": 118.75,
+    "overall_churn_count": 1869,
+    "overall_churn_rate": 0.2653698707936959
+  }
+}

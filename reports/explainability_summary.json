@@ -1,0 +1,992 @@
+{
+  "logistic_regression": {
+    "intercept": -0.5317279500334917,
+    "top_positive_drivers": [
+      {
+        "feature": "cat__Contract_Month-to-month",
+        "coef": 0.5985122105114795,
+        "odds_ratio": 1.8194098868386919
+      },
+      {
+        "feature": "num__TotalCharges",
+        "coef": 0.5768539199269677,
+        "odds_ratio": 1.7804282405146603
+      },
+      {
+        "feature": "cat__InternetService_Fiber optic",
+        "coef": 0.476434251382707,
+        "odds_ratio": 1.6103221487674617
+      },
+      {
+        "feature": "cat__PaymentMethod_Electronic check",
+        "coef": 0.22053128213101922,
+        "odds_ratio": 1.2467389247786154
+      },
+      {
+        "feature": "cat__OnlineSecurity_No",
+        "coef": 0.16773529935946185,
+        "odds_ratio": 1.182623528007672
+      },
+      {
+        "feature": "cat__TechSupport_No",
+        "coef": 0.16162400295482557,
+        "odds_ratio": 1.1754182044522108
+      },
+      {
+        "feature": "cat__StreamingMovies_Yes",
+        "coef": 0.14539611833509572,
+        "odds_ratio": 1.1564975894468092
+      },
+      {
+        "feature": "cat__StreamingTV_Yes",
+        "coef": 0.10938145269182488,
+        "odds_ratio": 1.1155878131636177
+      },
+      {
+        "feature": "cat__MultipleLines_Yes",
+        "coef": 0.06424918950356427,
+        "odds_ratio": 1.0663580908995773
+      },
+      {
+        "feature": "cat__PaperlessBilling_Yes",
+        "coef": 0.057875998220209446,
+        "odds_ratio": 1.0595835973117347
+      },
+      {
+        "feature": "cat__OnlineBackup_No",
+        "coef": 0.04571616684216213,
+        "odds_ratio": 1.0467772586932116
+      },
+      {
+        "feature": "cat__DeviceProtection_Yes",
+        "coef": 0.009363343558990198,
+        "odds_ratio": 1.0094073167986524
+      }
+    ],
+    "top_negative_drivers": [
+      {
+        "feature": "num__tenure",
+        "coef": -1.2569497155870455,
+        "odds_ratio": 0.28452057289006893
+      },
+      {
+        "feature": "cat__Contract_Two year",
+        "coef": -0.7575673583493908,
+        "odds_ratio": 0.46880547672701994
+      },
+      {
+        "feature": "cat__InternetService_DSL",
+        "coef": -0.5129283854138872,
+        "odds_ratio": 0.5987396685639566
+      },
+      {
+        "feature": "cat__PaperlessBilling_No",
+        "coef": -0.3253615923301357,
+        "odds_ratio": 0.7222661405218586
+      },
+      {
+        "feature": "num__MonthlyCharges",
+        "coef": -0.32421084128385846,
+        "odds_ratio": 0.7230977674447585
+      },
+      {
+        "feature": "cat__Dependents_Yes",
+        "coef": -0.2642301695598616,
+        "odds_ratio": 0.7677967958663985
+      },
+      {
+        "feature": "cat__MultipleLines_No",
+        "coef": -0.26034473377440953,
+        "odds_ratio": 0.7707858240912788
+      },
+      {
+        "feature": "cat__InternetService_No",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__OnlineSecurity_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__DeviceProtection_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__StreamingTV_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__OnlineBackup_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      }
+    ],
+    "all_coefficients": [
+      {
+        "feature": "num__tenure",
+        "coef": -1.2569497155870455,
+        "odds_ratio": 0.28452057289006893
+      },
+      {
+        "feature": "cat__Contract_Two year",
+        "coef": -0.7575673583493908,
+        "odds_ratio": 0.46880547672701994
+      },
+      {
+        "feature": "cat__Contract_Month-to-month",
+        "coef": 0.5985122105114795,
+        "odds_ratio": 1.8194098868386919
+      },
+      {
+        "feature": "num__TotalCharges",
+        "coef": 0.5768539199269677,
+        "odds_ratio": 1.7804282405146603
+      },
+      {
+        "feature": "cat__InternetService_DSL",
+        "coef": -0.5129283854138872,
+        "odds_ratio": 0.5987396685639566
+      },
+      {
+        "feature": "cat__InternetService_Fiber optic",
+        "coef": 0.476434251382707,
+        "odds_ratio": 1.6103221487674617
+      },
+      {
+        "feature": "cat__PaperlessBilling_No",
+        "coef": -0.3253615923301357,
+        "odds_ratio": 0.7222661405218586
+      },
+      {
+        "feature": "num__MonthlyCharges",
+        "coef": -0.32421084128385846,
+        "odds_ratio": 0.7230977674447585
+      },
+      {
+        "feature": "cat__Dependents_Yes",
+        "coef": -0.2642301695598616,
+        "odds_ratio": 0.7677967958663985
+      },
+      {
+        "feature": "cat__MultipleLines_No",
+        "coef": -0.26034473377440953,
+        "odds_ratio": 0.7707858240912788
+      },
+      {
+        "feature": "cat__InternetService_No",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__OnlineSecurity_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__DeviceProtection_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__StreamingTV_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__OnlineBackup_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__TechSupport_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__StreamingMovies_No internet service",
+        "coef": -0.23099146007874038,
+        "odds_ratio": 0.7937462445367273
+      },
+      {
+        "feature": "cat__PaymentMethod_Electronic check",
+        "coef": 0.22053128213101922,
+        "odds_ratio": 1.2467389247786154
+      },
+      {
+        "feature": "cat__SeniorCitizen_No",
+        "coef": -0.20743049463643204,
+        "odds_ratio": 0.8126697247148182
+      },
+      {
+        "feature": "cat__PaymentMethod_Credit card (automatic)",
+        "coef": -0.20523646296622178,
+        "odds_ratio": 0.8144547052641504
+      },
+      {
+        "feature": "cat__OnlineSecurity_Yes",
+        "coef": -0.2042294333906329,
+        "odds_ratio": 0.8152752983517357
+      },
+      {
+        "feature": "cat__TechSupport_Yes",
+        "coef": -0.1981181369860026,
+        "odds_ratio": 0.8202729428404318
+      },
+      {
+        "feature": "cat__PhoneService_Yes",
+        "coef": -0.1960955442708183,
+        "odds_ratio": 0.8219336998704557
+      },
+      {
+        "feature": "cat__PaymentMethod_Bank transfer (automatic)",
+        "coef": -0.1903442001630685,
+        "odds_ratio": 0.8266745434554639
+      },
+      {
+        "feature": "cat__StreamingMovies_No",
+        "coef": -0.18189025236627382,
+        "odds_ratio": 0.8336928312106742
+      },
+      {
+        "feature": "cat__OnlineSecurity_No",
+        "coef": 0.16773529935946185,
+        "odds_ratio": 1.182623528007672
+      },
+      {
+        "feature": "cat__TechSupport_No",
+        "coef": 0.16162400295482557,
+        "odds_ratio": 1.1754182044522108
+      },
+      {
+        "feature": "cat__gender_Female",
+        "coef": -0.15804500607680017,
+        "odds_ratio": 0.8538113544043621
+      },
+      {
+        "feature": "cat__StreamingTV_No",
+        "coef": -0.1458755867230167,
+        "odds_ratio": 0.8642652225646068
+      },
+      {
+        "feature": "cat__StreamingMovies_Yes",
+        "coef": 0.14539611833509572,
+        "odds_ratio": 1.1564975894468092
+      },
+      {
+        "feature": "cat__Partner_Yes",
+        "coef": -0.13698435224772446,
+        "odds_ratio": 0.871983870612952
+      },
+      {
+        "feature": "cat__Partner_No",
+        "coef": -0.13050124186220582,
+        "odds_ratio": 0.877655403020987
+      },
+      {
+        "feature": "cat__gender_Male",
+        "coef": -0.10944058803312685,
+        "odds_ratio": 0.8963354158302386
+      },
+      {
+        "feature": "cat__StreamingTV_Yes",
+        "coef": 0.10938145269182488,
+        "odds_ratio": 1.1155878131636177
+      },
+      {
+        "feature": "cat__Contract_One year",
+        "coef": -0.10843044627202894,
+        "odds_ratio": 0.8972412991239634
+      },
+      {
+        "feature": "cat__PaymentMethod_Mailed check",
+        "coef": -0.09243621311166986,
+        "odds_ratio": 0.9117073640855614
+      },
+      {
+        "feature": "cat__OnlineBackup_Yes",
+        "coef": -0.08221030087334745,
+        "odds_ratio": 0.9210782347697137
+      },
+      {
+        "feature": "cat__PhoneService_No",
+        "coef": -0.07139004983908588,
+        "odds_ratio": 0.9310986464130246
+      },
+      {
+        "feature": "cat__MultipleLines_No phone service",
+        "coef": -0.07139004983908588,
+        "odds_ratio": 0.9310986464130246
+      },
+      {
+        "feature": "cat__MultipleLines_Yes",
+        "coef": 0.06424918950356427,
+        "odds_ratio": 1.0663580908995773
+      },
+      {
+        "feature": "cat__SeniorCitizen_Yes",
+        "coef": -0.060055099473496486,
+        "odds_ratio": 0.9417126442838403
+      },
+      {
+        "feature": "cat__PaperlessBilling_Yes",
+        "coef": 0.057875998220209446,
+        "odds_ratio": 1.0595835973117347
+      },
+      {
+        "feature": "cat__DeviceProtection_No",
+        "coef": -0.045857477590161656,
+        "odds_ratio": 0.9551780867728341
+      },
+      {
+        "feature": "cat__OnlineBackup_No",
+        "coef": 0.04571616684216213,
+        "odds_ratio": 1.0467772586932116
+      },
+      {
+        "feature": "cat__DeviceProtection_Yes",
+        "coef": 0.009363343558990198,
+        "odds_ratio": 1.0094073167986524
+      },
+      {
+        "feature": "cat__Dependents_No",
+        "coef": -0.0032554245500644135,
+        "odds_ratio": 0.9967498685990624
+      }
+    ]
+  },
+  "permutation_importance": {
+    "Logistic Regression": [
+      {
+        "feature": "tenure",
+        "importance_mean": 0.23560439986378118,
+        "importance_std": 0.010604733511953164
+      },
+      {
+        "feature": "InternetService",
+        "importance_mean": 0.06161953696134127,
+        "importance_std": 0.01354484776482011
+      },
+      {
+        "feature": "Contract",
+        "importance_mean": 0.045228286524805775,
+        "importance_std": 0.011970356027090307
+      },
+      {
+        "feature": "TotalCharges",
+        "importance_mean": 0.0348086360077387,
+        "importance_std": 0.014332878530092349
+      },
+      {
+        "feature": "MonthlyCharges",
+        "importance_mean": 0.024978458430177465,
+        "importance_std": 0.012106044711236653
+      },
+      {
+        "feature": "StreamingMovies",
+        "importance_mean": 0.01675904234977309,
+        "importance_std": 0.0052899421269714825
+      },
+      {
+        "feature": "TechSupport",
+        "importance_mean": 0.013703113864204485,
+        "importance_std": 0.006538956083912926
+      },
+      {
+        "feature": "OnlineSecurity",
+        "importance_mean": 0.01008544709599768,
+        "importance_std": 0.0065753670426196035
+      },
+      {
+        "feature": "PaperlessBilling",
+        "importance_mean": 0.005102634877516721,
+        "importance_std": 0.005967093042064913
+      },
+      {
+        "feature": "StreamingTV",
+        "importance_mean": 0.004300244847280388,
+        "importance_std": 0.007645855983955546
+      },
+      {
+        "feature": "DeviceProtection",
+        "importance_mean": 0.002125189661064131,
+        "importance_std": 0.003548570850038317
+      },
+      {
+        "feature": "PaymentMethod",
+        "importance_mean": 0.0020784389329591368,
+        "importance_std": 0.005634716244453387
+      },
+      {
+        "feature": "gender",
+        "importance_mean": 0.0019380026485928403,
+        "importance_std": 0.0007969416825836356
+      },
+      {
+        "feature": "Dependents",
+        "importance_mean": 0.00182157678913194,
+        "importance_std": 0.005418255980095278
+      },
+      {
+        "feature": "PhoneService",
+        "importance_mean": 0.001144562734251664,
+        "importance_std": 0.001668796232999165
+      },
+      {
+        "feature": "OnlineBackup",
+        "importance_mean": 0.0008756805663684087,
+        "importance_std": 0.0032072197174022638
+      },
+      {
+        "feature": "Partner",
+        "importance_mean": 0.00013950490767072887,
+        "importance_std": 0.00015928711561230674
+      },
+      {
+        "feature": "SeniorCitizen",
+        "importance_mean": -0.00046840653621207375,
+        "importance_std": 0.0033738244772339382
+      },
+      {
+        "feature": "MultipleLines",
+        "importance_mean": -0.0005838232555097078,
+        "importance_std": 0.005562220796250131
+      }
+    ],
+    "Random Forest": [
+      {
+        "feature": "tenure",
+        "importance_mean": 0.06759626202155983,
+        "importance_std": 0.009555088100391525
+      },
+      {
+        "feature": "Contract",
+        "importance_mean": 0.04395930275456946,
+        "importance_std": 0.013746123780569119
+      },
+      {
+        "feature": "TotalCharges",
+        "importance_mean": 0.038005985448306925,
+        "importance_std": 0.006967892531354916
+      },
+      {
+        "feature": "InternetService",
+        "importance_mean": 0.029504420655738117,
+        "importance_std": 0.012468422193582905
+      },
+      {
+        "feature": "OnlineSecurity",
+        "importance_mean": 0.01977495907323079,
+        "importance_std": 0.008343375651436795
+      },
+      {
+        "feature": "TechSupport",
+        "importance_mean": 0.014092362934708058,
+        "importance_std": 0.00801181341114456
+      },
+      {
+        "feature": "MonthlyCharges",
+        "importance_mean": 0.0065818910911681575,
+        "importance_std": 0.008014694019493007
+      },
+      {
+        "feature": "PaperlessBilling",
+        "importance_mean": 0.004828148363641527,
+        "importance_std": 0.004680777602092077
+      },
+      {
+        "feature": "StreamingMovies",
+        "importance_mean": 0.0032309188246711696,
+        "importance_std": 0.0023825830836290054
+      },
+      {
+        "feature": "OnlineBackup",
+        "importance_mean": 0.0021815123244816603,
+        "importance_std": 0.0023769735565670747
+      },
+      {
+        "feature": "PhoneService",
+        "importance_mean": 0.0010474650139653096,
+        "importance_std": 0.0003874589941317637
+      },
+      {
+        "feature": "StreamingTV",
+        "importance_mean": 0.0007863457534823759,
+        "importance_std": 0.003473760105171744
+      },
+      {
+        "feature": "Partner",
+        "importance_mean": 0.0005851042051067789,
+        "importance_std": 0.0018908477878851041
+      },
+      {
+        "feature": "Dependents",
+        "importance_mean": -0.0004146753234389289,
+        "importance_std": 0.0037988270575721726
+      },
+      {
+        "feature": "DeviceProtection",
+        "importance_mean": -0.0009573142866154183,
+        "importance_std": 0.002483685277769876
+      },
+      {
+        "feature": "SeniorCitizen",
+        "importance_mean": -0.0012062613385687483,
+        "importance_std": 0.0012010936640959996
+      },
+      {
+        "feature": "PaymentMethod",
+        "importance_mean": -0.0014901055934077646,
+        "importance_std": 0.004863300453708588
+      },
+      {
+        "feature": "gender",
+        "importance_mean": -0.0018410622559690503,
+        "importance_std": 0.0009994217228314667
+      },
+      {
+        "feature": "MultipleLines",
+        "importance_mean": -0.0020427425049967087,
+        "importance_std": 0.005123259660638044
+      }
+    ],
+    "XGBoost": [
+      {
+        "feature": "tenure",
+        "importance_mean": 0.11916385325395148,
+        "importance_std": 0.010619840163369433
+      },
+      {
+        "feature": "Contract",
+        "importance_mean": 0.07995800896073552,
+        "importance_std": 0.014299100377748864
+      },
+      {
+        "feature": "InternetService",
+        "importance_mean": 0.02394590682205209,
+        "importance_std": 0.010278214580315583
+      },
+      {
+        "feature": "MonthlyCharges",
+        "importance_mean": 0.020350911519009716,
+        "importance_std": 0.007365809350217254
+      },
+      {
+        "feature": "OnlineSecurity",
+        "importance_mean": 0.019343752838799876,
+        "importance_std": 0.006458098240484483
+      },
+      {
+        "feature": "TechSupport",
+        "importance_mean": 0.01649343432697068,
+        "importance_std": 0.0077695067461683405
+      },
+      {
+        "feature": "TotalCharges",
+        "importance_mean": 0.015223550347314662,
+        "importance_std": 0.004139616816073474
+      },
+      {
+        "feature": "PaperlessBilling",
+        "importance_mean": 0.0051739159665096564,
+        "importance_std": 0.005220660468202489
+      },
+      {
+        "feature": "StreamingMovies",
+        "importance_mean": 0.0011870699630924576,
+        "importance_std": 0.0009635534621838578
+      },
+      {
+        "feature": "OnlineBackup",
+        "importance_mean": 0.0007311216872280645,
+        "importance_std": 0.0017536864844681945
+      },
+      {
+        "feature": "SeniorCitizen",
+        "importance_mean": 0.0002985140870538028,
+        "importance_std": 0.0015053839245817578
+      },
+      {
+        "feature": "PhoneService",
+        "importance_mean": 0.00023838993456076762,
+        "importance_std": 0.00017454957481505165
+      },
+      {
+        "feature": "Partner",
+        "importance_mean": 1.3487476163465128e-05,
+        "importance_std": 8.628529496818298e-05
+      },
+      {
+        "feature": "DeviceProtection",
+        "importance_mean": 0.0,
+        "importance_std": 0.0
+      },
+      {
+        "feature": "MultipleLines",
+        "importance_mean": -3.949638796272303e-05,
+        "importance_std": 0.0035820837741152916
+      },
+      {
+        "feature": "StreamingTV",
+        "importance_mean": -6.642608117285453e-05,
+        "importance_std": 0.0009649175732916258
+      },
+      {
+        "feature": "PaymentMethod",
+        "importance_mean": -8.855418868723986e-05,
+        "importance_std": 0.0041411730505842995
+      },
+      {
+        "feature": "Dependents",
+        "importance_mean": -0.00015973263653771275,
+        "importance_std": 0.00263396691295903
+      },
+      {
+        "feature": "gender",
+        "importance_mean": -0.000170274774022261,
+        "importance_std": 0.0003109010610908144
+      }
+    ]
+  },
+  "xgboost_treeshap": {
+    "base_value_logit": -1.0162559747695923,
+    "top_encoded_shap": [
+      {
+        "encoded_feature": "Contract_Month-to-month",
+        "mean_abs_shap": 0.5304381847381592,
+        "mean_shap": -0.042705826461315155
+      },
+      {
+        "encoded_feature": "tenure",
+        "mean_abs_shap": 0.4357337951660156,
+        "mean_shap": -0.12636883556842804
+      },
+      {
+        "encoded_feature": "MonthlyCharges",
+        "mean_abs_shap": 0.23587007820606232,
+        "mean_shap": -0.05139624699950218
+      },
+      {
+        "encoded_feature": "OnlineSecurity_No",
+        "mean_abs_shap": 0.23425188660621643,
+        "mean_shap": -0.0309477299451828
+      },
+      {
+        "encoded_feature": "InternetService_Fiber optic",
+        "mean_abs_shap": 0.22131863236427307,
+        "mean_shap": -0.03346258029341698
+      },
+      {
+        "encoded_feature": "TechSupport_No",
+        "mean_abs_shap": 0.19320707023143768,
+        "mean_shap": -0.03780727833509445
+      },
+      {
+        "encoded_feature": "Contract_Two year",
+        "mean_abs_shap": 0.17142605781555176,
+        "mean_shap": -0.06763540208339691
+      },
+      {
+        "encoded_feature": "PaymentMethod_Electronic check",
+        "mean_abs_shap": 0.13871125876903534,
+        "mean_shap": -0.023384101688861847
+      },
+      {
+        "encoded_feature": "PaperlessBilling_No",
+        "mean_abs_shap": 0.12023083120584488,
+        "mean_shap": -0.019003285095095634
+      },
+      {
+        "encoded_feature": "TotalCharges",
+        "mean_abs_shap": 0.08838151395320892,
+        "mean_shap": -0.026129256933927536
+      },
+      {
+        "encoded_feature": "OnlineBackup_No",
+        "mean_abs_shap": 0.08698098361492157,
+        "mean_shap": -0.01770516112446785
+      },
+      {
+        "encoded_feature": "MultipleLines_No",
+        "mean_abs_shap": 0.07890451699495316,
+        "mean_shap": -0.0004727644263766706
+      },
+      {
+        "encoded_feature": "StreamingMovies_Yes",
+        "mean_abs_shap": 0.048151422291994095,
+        "mean_shap": -0.0054450188763439655
+      },
+      {
+        "encoded_feature": "Dependents_No",
+        "mean_abs_shap": 0.03703444451093674,
+        "mean_shap": -0.008402989245951176
+      },
+      {
+        "encoded_feature": "SeniorCitizen_No",
+        "mean_abs_shap": 0.019009960815310478,
+        "mean_shap": -0.0021000029519200325
+      }
+    ],
+    "raw_feature_shap": [
+      {
+        "feature": "Contract",
+        "mean_abs_shap": 0.6660442849891518
+      },
+      {
+        "feature": "tenure",
+        "mean_abs_shap": 0.4357333559831413
+      },
+      {
+        "feature": "MonthlyCharges",
+        "mean_abs_shap": 0.2358700735898106
+      },
+      {
+        "feature": "OnlineSecurity",
+        "mean_abs_shap": 0.234252102276465
+      },
+      {
+        "feature": "InternetService",
+        "mean_abs_shap": 0.2302100416380288
+      },
+      {
+        "feature": "TechSupport",
+        "mean_abs_shap": 0.19580420673936552
+      },
+      {
+        "feature": "PaymentMethod",
+        "mean_abs_shap": 0.14054700105306953
+      },
+      {
+        "feature": "PaperlessBilling",
+        "mean_abs_shap": 0.13366563350948418
+      },
+      {
+        "feature": "OnlineBackup",
+        "mean_abs_shap": 0.08843211577225323
+      },
+      {
+        "feature": "TotalCharges",
+        "mean_abs_shap": 0.08838145070986239
+      },
+      {
+        "feature": "MultipleLines",
+        "mean_abs_shap": 0.08443882569771147
+      },
+      {
+        "feature": "Dependents",
+        "mean_abs_shap": 0.04934270646141523
+      },
+      {
+        "feature": "StreamingMovies",
+        "mean_abs_shap": 0.04815145866843595
+      },
+      {
+        "feature": "SeniorCitizen",
+        "mean_abs_shap": 0.02127476453704206
+      },
+      {
+        "feature": "StreamingTV",
+        "mean_abs_shap": 0.018446468196893898
+      },
+      {
+        "feature": "gender",
+        "mean_abs_shap": 0.014120433967103791
+      },
+      {
+        "feature": "PhoneService",
+        "mean_abs_shap": 0.0031994602977492527
+      },
+      {
+        "feature": "Partner",
+        "mean_abs_shap": 0.002641463407772713
+      },
+      {
+        "feature": "DeviceProtection",
+        "mean_abs_shap": 0.0
+      }
+    ]
+  },
+  "case_studies": {
+    "high_risk_profiles": [
+      {
+        "case_label": "高风险典型客户 #1",
+        "actual_churn": 1,
+        "predicted_prob": 0.8846184611320496,
+        "profile": {
+          "tenure_months": 1,
+          "Contract": "Month-to-month",
+          "InternetService": "Fiber optic",
+          "MonthlyCharges": 94.0,
+          "PaymentMethod": "Electronic check",
+          "TechSupport": "No",
+          "OnlineSecurity": "No",
+          "PaperlessBilling": "Yes"
+        },
+        "top_shap_reasons": [
+          {
+            "feature": "tenure",
+            "shap_logit": 0.8876906037330627,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "Contract",
+            "shap_logit": 0.520023338496685,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "InternetService",
+            "shap_logit": 0.22189008467830718,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "TotalCharges",
+            "shap_logit": 0.2056441754102707,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "OnlineSecurity",
+            "shap_logit": 0.19869452714920044,
+            "direction": "增加风险"
+          }
+        ]
+      },
+      {
+        "case_label": "高风险典型客户 #2",
+        "actual_churn": 1,
+        "predicted_prob": 0.8733341097831726,
+        "profile": {
+          "tenure_months": 1,
+          "Contract": "Month-to-month",
+          "InternetService": "Fiber optic",
+          "MonthlyCharges": 95.45,
+          "PaymentMethod": "Electronic check",
+          "TechSupport": "No",
+          "OnlineSecurity": "No",
+          "PaperlessBilling": "Yes"
+        },
+        "top_shap_reasons": [
+          {
+            "feature": "tenure",
+            "shap_logit": 0.8898206949234009,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "Contract",
+            "shap_logit": 0.5201007574796677,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "InternetService",
+            "shap_logit": 0.22617129259742796,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "MonthlyCharges",
+            "shap_logit": 0.20179685950279236,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "OnlineSecurity",
+            "shap_logit": 0.19869452714920044,
+            "direction": "增加风险"
+          }
+        ]
+      }
+    ],
+    "false_positive_cases": [
+      {
+        "case_label": "典型误报 (FP：高预测风险但实际留存)",
+        "actual_churn": 0,
+        "predicted_prob": 0.8141553997993469,
+        "profile": {
+          "tenure_months": 2,
+          "Contract": "Month-to-month",
+          "InternetService": "Fiber optic",
+          "MonthlyCharges": 84.05,
+          "PaymentMethod": "Electronic check",
+          "TechSupport": "No",
+          "OnlineSecurity": "No",
+          "PaperlessBilling": "Yes"
+        },
+        "top_shap_reasons": [
+          {
+            "feature": "tenure",
+            "shap_logit": 0.5653496980667114,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "Contract",
+            "shap_logit": 0.5403362177312374,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "OnlineSecurity",
+            "shap_logit": 0.24808034300804138,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "InternetService",
+            "shap_logit": 0.22871722117997706,
+            "direction": "增加风险"
+          },
+          {
+            "feature": "TechSupport",
+            "shap_logit": 0.16761590796522796,
+            "direction": "增加风险"
+          }
+        ]
+      }
+    ],
+    "false_negative_cases": [
+      {
+        "case_label": "典型漏报 (FN：低预测风险但实际流失)",
+        "actual_churn": 1,
+        "predicted_prob": 0.01575336791574955,
+        "profile": {
+          "tenure_months": 72,
+          "Contract": "Two year",
+          "InternetService": "DSL",
+          "MonthlyCharges": 92.45,
+          "PaymentMethod": "Credit card (automatic)",
+          "TechSupport": "Yes",
+          "OnlineSecurity": "Yes",
+          "PaperlessBilling": "No"
+        },
+        "top_shap_reasons": [
+          {
+            "feature": "Contract",
+            "shap_logit": -1.1950106527656317,
+            "direction": "降低风险"
+          },
+          {
+            "feature": "tenure",
+            "shap_logit": -0.7173144817352295,
+            "direction": "降低风险"
+          },
+          {
+            "feature": "OnlineSecurity",
+            "shap_logit": -0.27322909235954285,
+            "direction": "降低风险"
+          },
+          {
+            "feature": "TechSupport",
+            "shap_logit": -0.23734599351882935,
+            "direction": "降低风险"
+          },
+          {
+            "feature": "InternetService",
+            "shap_logit": -0.15995469642803073,
+            "direction": "降低风险"
+          }
+        ]
+      }
+    ],
+    "collinearity_note": {
+      "tenure_vs_total_charges_corr": 0.823800606954924,
+      "explanation": "在网时长 tenure 与累计消费 TotalCharges 在测试集上的皮尔逊相关系数为 0.824，且 Fiber optic 网络与更高 MonthlyCharges 高度伴随；因此线性回归系数与树模型归因可能在相关特征间分摊权重，不得将单个特征重要性直接解读为独立因果效应。"
+    }
+  }
+}
