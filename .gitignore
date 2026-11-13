@@ -1,6 +1,7 @@
 # Python and Jupyter caches
 __pycache__/
 *.py[cod]
+*$py.class
 .ipynb_checkpoints/
 .pytest_cache/
 .mypy_cache/
@@ -9,12 +10,16 @@ __pycache__/
 # Local environments and secrets
 .venv/
 venv/
+env/
 .env
 .env.*
+*.key
+*.pem
 
 # Editor and temporary files
 .vscode/
 .idea/
+.worktrees/
 *.tmp
 *.swp
 *~
